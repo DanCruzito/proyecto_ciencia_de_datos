@@ -53,7 +53,7 @@ class YearlyValue(Base):
 # DATABASE_URL = 'postgresql+psycopg2://username:password@hostname:port/dbname'
 
 #conexion base de datos
-DATABASE_URL = "postgresql+psycopg2://utb_students:AVNS_OXQBajkVtAn2czuYQYe@pg-diplomado-utb-diplomado-utb-2024.c.aivencloud.com:24354/economic_kpis_utb"
+#DATABASE_URL = "postgresql+psycopg2://utb_students:AVNS_OXQBajkVtAn2czuYQYe@pg-diplomado-utb-diplomado-utb-2024.c.aivencloud.com:24354/economic_kpis_utb"
 engine = create_engine(DATABASE_URL)
 
 # Create a session
